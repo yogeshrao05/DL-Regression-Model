@@ -44,7 +44,7 @@ Use the trained model to predict  for a new input value .
 
 ### Register Number:
 
-class NeuralNet(nn.Module):
+'class NeuralNet(nn.Module):
     def __init__(self):
         super().__init__()
         #Include your code here
@@ -52,7 +52,7 @@ class NeuralNet(nn.Module):
 
 
 # Initialize the Model, Loss Function, and Optimizer
-
+'
 
 ### Dataset Information
 Include screenshot of the generated data
