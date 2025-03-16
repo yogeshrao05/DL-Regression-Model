@@ -45,8 +45,8 @@ Use the trained model to predict  for a new input value .
 ### Register Number:
 
 ```python
-class NeuralNet(nn.Module):
-    def __init__(self):
+class Model(nn.Module):
+    def __init__(self, in_features, out_features):
         super().__init__()
         #Include your code here
 
